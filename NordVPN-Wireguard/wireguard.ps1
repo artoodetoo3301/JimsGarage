@@ -1,7 +1,7 @@
 # Gain your token by heading to your NordVPN account and going to "Get Access Token"
 # URL: https://my.nordaccount.com/dashboard/nordvpn/access-tokens/authorize/
 $username = "token"
-$password = "my-token-from-nordvpn"
+$password = "e9f2abfb11bf293c5b5e27d0b6c996aff54c8c79a37070df98ae496747beb63f"
 $auth = "$($username):$($Password)"
 $bytes = [System.Text.Encoding]::ASCII.GetBytes($auth)
 $encodedCredentials = [Convert]::ToBase64String($bytes)
